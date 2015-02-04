@@ -1,5 +1,8 @@
+/******************************************************************************
+************************************INDEX.HTML*********************************
+******************************************************************************/
 header img{
-	width: 20%;
+	width: 12%;
 	height: auto;
 	margin: 10px auto 10px auto;
 	display: block;
@@ -8,7 +11,6 @@ header img{
 header nav{
 	text-align: center;
 	background: linear-gradient(#F0F0F0 0%,#9D9D9D 70%, #9D9D9D 71%, #c0c0c0 100%);
-	//background: linear-gradient(top, #555 + #252525 0%, #555 + #171717 50%, #555 - #010101 51%, @theme + #151515 100%);
 	box-shadow: 5px 5px 10px black;
 	border-radius: 10px;
 	height: 40px;
@@ -23,22 +25,81 @@ header nav li{
 	display: inline;
 	color: #ffffff;
 	margin: auto auto auto auto;
-	padding-right: 100px;
+	padding-right: 50px;
+	padding-left: 50px;
 	font-weight: bold;
 	font-size: 17px;
+	border-right: 1.5px solid #F5F5F5;
 }
 
 nav li:last-child{
 	padding-right: 0px;
+	border: none;
 }
 
 header a{
 	text-decoration: none;
 	color: #ffffff;
+	transition: color 0.8s ease;
 }
 header a:link, header a:visited{
 	color: #ffffff;
 }
 header a:hover, header a:active{
-	color: #E7E6E8;
+	color: #D7D6D8;
+}
+
+.contents{
+	height: 700px;
+}
+.contents figure{
+	width: 50%;
+	height: 200px;
+	margin: 20px auto 0 0;
+	overflow: hidden;
+	float: left;
+}
+.contents article{
+	float: right;
+	width: 50%;
+	height: 200px;
+	color: #fff;
+	background-color: #CBCBCB;
+	text-align: center;
+	text-shadow: 1px 1px 2px #000;
+}
+.contents article h1{
+	position: relative;
+	top: 70px;
+	transition: top 0.8s ease;
+}
+.contents article p{
+	position: relative;
+	top: 200px;
+	transition: top 0.8s ease 0.1s;
+}
+.contents figure:hover h1{
+	top: 0px;
+}
+ .contents figure:hover p{
+ 	top: 0px;
+ }
+ .contents figure:hover img{
+ 	height: 220;
+ }
+.contents img{
+	height: 200px;
+	width: 50%;
+	transition: all 0.8s ease;
+}
+
+footer{
+	background-color: #9D9D9D;
+	height: 150px;
+	position: relative;
+}
+
+/******************************************************************************
+**********************************CONTACT.HTML*********************************
+******************************************************************************/
 }
