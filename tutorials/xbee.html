@@ -2,22 +2,33 @@
 	<html>
 		<head>
 			<link rel="stylesheet" href="../main.css">
+			<link href="../google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+			<script type="text/javascript" src="../google-code-prettify/prettify.js"></script>
 		</head>
 		
-		<body>
+		<body onload="prettyPrint()">
 			<header>
-				<a href="index.html"><img src="../images/logo.tiff" alt="baixiao opensource logo"></a>
+				<a href="../index.html"><img src="../images/logo.png" alt="baixiao opensource logo"></a>
 				<nav>
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="tutorials.html">Tutorials</a></li>
-						<li><a href="aboutme.html">About me</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../projects.html">Projects</a></li>
+						<li><a href="../tutorials.html">Tutorials</a></li>
+						<li><a href="../aboutme.html">About me</a></li>
+						<li><a href="../contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</header>
 			<section class="contents">
+				<pre class="prettyprint linenums">
+				#include <iostream>
+				using namespace std;
+				int main(void)
+				{
+					cout << "hello world";
+					return 0;
+				}
+				</pre>
 			</section>
 			<footer>
 			</footer>
