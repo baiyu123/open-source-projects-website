@@ -20,20 +20,19 @@ header nav{
 	border-radius: 10px;
 	height: 40px;
 	width: 100%;
+	display: table;
+	table-layout: fixed;
 }
 header nav	ul{
-	display: inline-block;
+	display: table-row;
 	margin-top: 10px;
 }
 header nav li{
-	display: inline;
+	display: table-cell;
 	color: #ffffff;
-	margin: auto auto auto auto;
-	padding-right: 50px;
-	padding-left: 50px;
 	font-weight: bold;
 	font-size: 17px;
-	border-right: 1.5px solid #F5F5F5;
+	vertical-align: middle;
 }
 nav li:last-child{
 	padding-right: 0px;
