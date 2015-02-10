@@ -159,6 +159,34 @@ pre{
 	width: 50%;
 	margin: 20px auto;
 }
+.body h1{
+    color: #333333;
+    font-family:Georgia;
+    font-size: 30px;
+}
+body{
+    background-image: url(images/whitebg2.jpg);
+}
+.selfie{
+    width: 300px;
+    height: auto;
+    margin: 0px auto 0px 200px;
+    border: 1px solid #000000;
+}
+.body h1{
+    text-align: center;
+    margin: 20 auto 20 auto;
+    border-bottom: 3px solid #555599;
+}
+.body ul{
+    list-style-type: none
+}
+.body li{
+    display: inline;
+    width: 30px;
+    color: red;
+    margin-left: 10px;
+}
 /******************************************************************************
 **********************************CONTACT.HTML*********************************
 ******************************************************************************/
